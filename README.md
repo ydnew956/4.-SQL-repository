@@ -116,3 +116,4 @@ ORDER BY Population DESC; -- Sort cities by population (highest first)
 SELECT Country, -- Country name AVG(Population) AS Average_Population -- Average population per country
 FROM Country -- Table containing country data
 GROUP BY Country; -- Group results by country name
+
